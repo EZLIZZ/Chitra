@@ -1,0 +1,222 @@
+:root {
+    --bg : #f0f2f5;
+    --purple: rgb(134, 85, 148);
+    --white: #fff;
+    --blue: #697aa4;
+    --dg:rgb(50, 64, 119);
+
+}
+
+* {
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body {
+    height: 100vh;
+    overflow: hidden;
+    background:url(back.png);
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    
+
+}
+
+.main-wrapper{
+    height: 680px;
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    margin-top: 40px;
+
+}
+.chitra {
+    height: 30px;
+    display: flex;
+    margin: auto;    
+}
+.branding {
+    text-align: center;
+    height: 30px;
+
+}
+
+
+.slogan {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 20px 0;
+}
+.panel {
+    background: linear-gradient(180deg, rgba(22,2,46,0.5) 0%, rgba(221,138,183,0.2) 100%);
+    padding: 15px;
+    width: 400px;
+    margin:20px 0;
+    margin-top: 80px;
+    margin-right: 80px;
+    border-radius: 40px;
+    box-shadow: 0 3px 5px 2px rgba(131, 76, 76, 0.3);
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    background-color:rgba(245, 219, 255, 0.7);
+
+    border: 0.1px solid #aeaeae;
+    border-radius: 6px;
+    margin-bottom: 10px;
+
+    }
+
+.date input{
+    text-decoration: none;
+}
+p {
+    text-align: left;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    color: var(--bg);
+}
+
+input::placeholder {
+    font-size: 1.0rem;
+    text-align: left;
+
+}
+input:focus {
+    outline: 1px solid var(--purple);
+
+
+}
+ 
+input:focus::plaeholder {
+    color:var(--bg);
+
+}
+
+.log-in-button {
+    background-color: var(--purple);
+    color:var(--bg);
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-top: 20px;
+    padding:10px;
+    transition-property: background-color;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+
+
+}
+
+.log-in-button:hover {
+    background-color:rgb(90, 56, 99);
+    cursor: pointer;
+    border-radius:  6px;
+    font-weight: bolder;
+   
+}
+
+
+a {
+    text-decoration: none;
+
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.forgot {
+    font-size: 0.9rem;
+    color: var(--white);
+}
+
+hr {
+    margin: 18px 0;
+    opacity: 0.3;
+}
+
+.register-button {
+    background-color:rgb(100, 75, 165) ;
+    color:var(--white);
+    display: inline-block;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-weight: bolder;
+    transition-property: background-color;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+}
+
+.register-button:hover {
+    text-decoration: none;
+    background-color: rgb(57, 39, 101);
+}
+
+.bottom-link {
+    display: flex;
+    justify-content: left;
+    margin-left: 40px;
+    gap: 5px;
+    font-size: 0.9rem;
+}
+
+.page {
+    color: #000;
+    font-weight: bold;
+}
+.date::placeholder{
+    font-size:10px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.bar{
+    align-items:center ;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(22,2,46,0.5) 0%, rgba(221,138,183,0.2) 100%);
+    width: 500px;
+    margin:20px 0;
+    margin:10%;
+    box-shadow: 0 3px 5px 2px rgba(131, 76, 76, 0.3);
+  
+}
+.comment{
+ width: 450px;
+ height: 450px;
+ justify-content: center;
+ text-align:justify; 
+}
+
+ul{
+    text-align: center;
+    display: block;
+    margin-top: 200px;
+    margin-right: 300px;    
+    list-style: none;
+    font-size: 60px;
+    font-family: cursive;
+    text-decoration: solid;
+    
+    color: lightpink;
+}
+
+.error_message{
+    color: #da2929;
+}
+
+.Confirmation_message{
+    color: rgb(141, 43, 187);
+}
+
